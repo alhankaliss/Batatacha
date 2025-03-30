@@ -1,12 +1,5 @@
-# Building a Realtime Chat App with Next.js, Ably, and Vercel
-
-Live example at: <https://next-js-chat-app.vercel.app>
-
-Step by step guide at: <https://ably.com/blog/realtime-chat-app-nextjs-vercel>
-
-This is a demo chat application with [Next.js](https://nextjs.org/) using [Ably](https://ably.com) as the messaging platform.
-
 ## Description
+Batatachat
 
 It demonstrates the use of:
 
@@ -83,22 +76,3 @@ In order to deploy your new chat app to Vercel you'll need to:
 
 There are a few ways that this example could be extended:
 
-### Add message history
-
-There is currently no chat history in this demo, you'll only see messages that come in after you join the chat. You could expand this demo by using [Ably's rewind feature](https://ably.com/docs/storage-history/history) for up to two minutes of history for free, or with a paid account, for up to ~48 hours.
-
-### Add user names
-
-There aren't any usernames sent with the chat messages. This demo could be extended to introduce a username input box, and to add the current username to messages as they're sent.
-
-The demo uses the randomly generated Ably client Id as a unique identifier - which is how it can detect if it is "me" or "someone else" who sent the message.
-
-## More info
-
-- [Join our Discord server](https://discord.gg/q89gDHZcBK)
-- [Follow us on Twitter](https://twitter.com/ablyrealtime)
-- [Use our SDKs](https://github.com/ably/)
-- [Visit our website](https://ably.com)
-
----
-[![Ably logo](https://static.ably.dev/badge-black.svg?ably-next-vercel-news)](https://ably.com)
